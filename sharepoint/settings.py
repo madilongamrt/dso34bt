@@ -89,28 +89,28 @@ WSGI_APPLICATION = 'sharepoint.wsgi.application'
 #}
 
 
+#DATABASES = {
+#   'default': {
+#       'ENGINE': 'django.db.backends.mysql',
+#       'NAME': 'dso34bt_db',
+#       'USER': 'rudzani',
+#       'PASSWORD': 'db_password',
+#     'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+#     'PORT': '3306',
+#  }
+#}
+
+
 DATABASES = {
-   'default': {
+  'default': {
        'ENGINE': 'django.db.backends.mysql',
-       'NAME': 'dso34bt_db',
-        'USER': 'rudzani',
-       'PASSWORD': 'db_password',
-       'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+       'NAME': 'sharepointdb',
+        'USER': 'be3042f594ed4c',
+       'PASSWORD': '1169480c',
+       'HOST': 'us-cdbr-azure-southcentral-f.cloudapp.net',   # Or an IP Address that your DB is hosted on
       'PORT': '3306',
    }
 }
-
-
-#DATABASES = {
-#  'default': {
-#       'ENGINE': 'django.db.backends.mysql',
-#       'NAME': 'sharepointdb',
-#        'USER': 'be3042f594ed4c',
-#       'PASSWORD': '1169480c',
-#       'HOST': 'us-cdbr-azure-southcentral-f.cloudapp.net',   # Or an IP Address that your DB is hosted on
-#      'PORT': '3306',
-#   }
-#}
 
 
 
