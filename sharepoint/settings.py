@@ -91,12 +91,12 @@ WSGI_APPLICATION = 'sharepoint.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-       'NAME': 'dso34bt_db',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+       'NAME': 'd3koou96kbsu19',
         'USER': 'rudzani',
-        'PASSWORD': 'db_password',
-        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
-        'PORT': '3306',
+        'PASSWORD': 'qsNxH1ONz4fAccuORK_SMiteCq',
+        'HOST': 'ec2-23-23-162-78.compute-1.amazonaws.com',   # Or an IP Address that your DB is hosted on
+        'PORT': '5432',
     }
 }
 
