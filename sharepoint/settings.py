@@ -101,6 +101,18 @@ DATABASES = {
 }
 
 
+#DATABASES = {
+#  'default': {
+#       'ENGINE': 'django.db.backends.mysql',
+#       'NAME': 'sharepointdb',
+#        'USER': 'be3042f594ed4c',
+#       'PASSWORD': '1169480c',
+#       'HOST': 'us-cdbr-azure-southcentral-f.cloudapp.net',   # Or an IP Address that your DB is hosted on
+#      'PORT': '3306',
+#   }
+#}
+
+
 
 
 # Password validation
